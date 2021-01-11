@@ -1,0 +1,9 @@
+
+cmake -L ..  查看默认选项
+
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/opt/doxygen -G"Unix Makefiles" ..
+make
+make install
+
